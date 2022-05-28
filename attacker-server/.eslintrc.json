@@ -1,0 +1,14 @@
+{
+    "extends": "airbnb",
+    "env": {
+        "jest": true
+    },
+    "overrides": [
+        {
+            "files": ["server.js","app/*/*"],
+            "rules": {
+                "no-console": "off"
+            }
+        }
+    ]
+}
